@@ -1,0 +1,191 @@
+{
+  "search_params": {
+    "to_type": "airport",
+    "flyFrom_type": "airport",
+    "seats": {
+      "infants": 0,
+      "passengers": 1,
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "_results": 1,
+  "connections": [],
+  "currency": "EUR",
+  "currency_rate": 1,
+  "all_stopover_airports": [
+    "BAH"
+  ],
+  "data": [
+    {
+      "mapIdfrom": "london_gb",
+      "duration": {
+        "total": 86400,
+        "return": 47700,
+        "departure": 38700
+      },
+      "return_duration": "13h 15m",
+      "flyTo": "DXB",
+      "conversion": {
+        "EUR": 767
+      },
+      "mapIdto": "dubai_ae",
+      "nightsInDest": 5,
+      "airlines": [
+        "GF",
+        "FZ"
+      ],
+      "id": "EV3700315886_306058240|EP2272803166_384718822|EP2272803166_386771909|EV3700315886_394635236",
+      "facilitated_booking_available": true,
+      "pnr_count": 2,
+      "fly_duration": "10h 45m",
+      "countryTo": {
+        "code": "AE",
+        "name": "United Arab Emirates"
+      },
+      "baglimit": {
+        "hand_width": 44,
+        "hand_length": 55,
+        "hold_weight": 20,
+        "hand_height": 20,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1507923900,
+      "p3": 1,
+      "price": 767,
+      "bags_price": {
+        "1": 24
+      },
+      "cityTo": "Dubai",
+      "transfers": [],
+      "flyFrom": "LHR",
+      "dTimeUTC": 1507885200,
+      "p2": 1,
+      "countryFrom": {
+        "code": "GB",
+        "name": "United Kingdom"
+      },
+      "hidden_flights": [],
+      "p1": 1,
+      "dTime": 1507888800,
+      "booking_token": "GamFTRHoBQ/v6QB8Irykhs320XfjZPfZzlYyhc7jew2EQPsyf3aUbqfeasr/vG13QLe5cslzOHuE8z/xpT5cxQVK+60THjCamhXZ35wvaRC3qs1kjXWLqBR1EfXuZJotvEj6OYqr+4cZ19lfVWp8OZeQIVGVQBwnRSAVq0eRVglpzJYU71gScMdjva8JoCZi6EkCCbUVv17+wX006tgfWINkvydXIgbPRzprWmDHk/n9/eM/anA/aEU4Vz14eAMbJS8T6eC6cPCjMZheud4THpejQoYF7qKxOLpKM3RBsPAKdTUxFWDJGpkKXMoz/DY7Tmo6M4Cvns2l/Bi+rt7X+T/Z1QkqbdkSqzg7ofFeRv+mVmJ2f6PqiZ6ZMU5eu31/F/TbK+WjT3m3mWkKabAj+MWTNBXlfSUpcl8dgZh/NgqJnRM8yBx0QSwnnJsFeenz799KRYtjzIWn/fhtro6j8UMgnzv6NJ3Y8rRbA5xg+K+N8fA8oqoE3dbIrGZ1ih43",
+      "cityFrom": "London",
+      "aTime": 1507938300,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "london_gb",
+          "flight_no": 2,
+          "original_return": 0,
+          "lngFrom": -0.1164722443,
+          "flyTo": "BAH",
+          "latTo": 26.2708333333,
+          "source": "GDS",
+          "combination_id": "EV3700315886",
+          "id": "EV3700315886_306058240",
+          "latFrom": 51.5135984673,
+          "lngTo": 50.6336111111,
+          "dTimeUTC": 1507885200,
+          "aTimeUTC": 1507908900,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Bahrain Island",
+          "flyFrom": "LHR",
+          "mapIdto": "bahrain-island_bh",
+          "dTime": 1507888800,
+          "found_on": "amadeus_mpis",
+          "airline": "GF",
+          "cityFrom": "London",
+          "aTime": 1507919700
+        },
+        {
+          "bags_recheck_required": true,
+          "mapIdfrom": "bahrain-island_bh",
+          "flight_no": 22,
+          "original_return": 0,
+          "lngFrom": 50.6336111111,
+          "flyTo": "DXB",
+          "latTo": 25.088623227,
+          "source": "lcc-FZ",
+          "combination_id": "EP2272803166",
+          "id": "EP2272803166_384718822",
+          "latFrom": 26.2708333333,
+          "lngTo": 55.1552295685,
+          "dTimeUTC": 1507919100,
+          "aTimeUTC": 1507923900,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Dubai",
+          "flyFrom": "BAH",
+          "mapIdto": "dubai_ae",
+          "dTime": 1507929900,
+          "found_on": null,
+          "airline": "FZ",
+          "cityFrom": "Bahrain Island",
+          "aTime": 1507938300
+        },
+        {
+          "bags_recheck_required": true,
+          "mapIdfrom": "dubai_ae",
+          "flight_no": 21,
+          "original_return": 1,
+          "lngFrom": 55.1552295685,
+          "flyTo": "BAH",
+          "latTo": 26.2708333333,
+          "source": "lcc-FZ",
+          "combination_id": "EP2272803166",
+          "id": "EP2272803166_386771909",
+          "latFrom": 25.088623227,
+          "lngTo": 50.6336111111,
+          "dTimeUTC": 1508343000,
+          "aTimeUTC": 1508347500,
+          "return": 1,
+          "price": 1,
+          "cityTo": "Bahrain Island",
+          "flyFrom": "DXB",
+          "mapIdto": "bahrain-island_bh",
+          "dTime": 1508357400,
+          "found_on": null,
+          "airline": "FZ",
+          "cityFrom": "Dubai",
+          "aTime": 1508358300
+        },
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "bahrain-island_bh",
+          "flight_no": 7,
+          "original_return": 1,
+          "lngFrom": 50.6336111111,
+          "flyTo": "LHR",
+          "latTo": 51.5135984673,
+          "source": "GDS",
+          "combination_id": "EV3700315886",
+          "id": "EV3700315886_394635236",
+          "latFrom": 26.2708333333,
+          "lngTo": -0.1164722443,
+          "dTimeUTC": 1508364900,
+          "aTimeUTC": 1508390700,
+          "return": 1,
+          "price": 1,
+          "cityTo": "London",
+          "flyFrom": "BAH",
+          "mapIdto": "london_gb",
+          "dTime": 1508375700,
+          "found_on": "amadeus_mpis",
+          "airline": "GF",
+          "cityFrom": "Bahrain Island",
+          "aTime": 1508394300
+        }
+      ],
+      "distance": 5480.46
+    }
+  ],
+  "ref_tasks": {},
+  "refresh": [],
+  "del": 0,
+  "all_airlines": [
+    "GF",
+    "FZ"
+  ],
+  "time": 1
+}
