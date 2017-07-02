@@ -4,7 +4,7 @@ https://gist.github.com/martin-kokos/d578679d97eb1652dfeb3e7f2a4e115b
 
 
 
-1. You can change yours credentials.
+1. You can change your credentials.
 2. Examples for using:
     ```
     ./book_flight.py --date 2017-10-13 --from BCN --to DUB --one-way
