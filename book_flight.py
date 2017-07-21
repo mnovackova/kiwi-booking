@@ -14,7 +14,7 @@ EMAIL = 'marketa@novackovi.cz'
 
 @click.command()
 @click.option('--date')
-@click.option('--from', 'from_')
+@click.option('--from', 'from_', help='Source IATA code.')
 @click.option('--to', default='')
 @click.option('--one-way', is_flag=True)
 @click.option('--return', 'return_')
