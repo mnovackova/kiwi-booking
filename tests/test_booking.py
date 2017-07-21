@@ -14,6 +14,17 @@ def test_booking(monkeypatch):
     a = book_flight.booking(None)
     assert a == "C3TZXMA"
 
+def test_string(monkeypatch):
+    class fake_json:
+        ok = True
+        def json(self):
+            with open("data/booking.json", 'r', encoding='utf-8') as file:
+                return json.load(file)
+
+    monkeypatch.setattr(book_flight.requests, 'post', lambda url, json: fake_json())
+
+    a = book_flight.booking(None)
+    assert len(a) == 7
 
 def test_wrong_api(monkeypatch):
     class fake_json:
